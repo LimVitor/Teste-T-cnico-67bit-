@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c1c961cbd00909b45b34d97fd7df5cbf, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -896,6 +896,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 113126096123275329, guid: 2efc0b8b22a958849a214935380ff61d,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113126096123275329, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
@@ -924,6 +929,16 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: e3edcf7ad7a3fb64e97374d85000e84e, type: 3}
+    - target: {fileID: 1068078820752164408, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 96fed9953fb86734897c7e98d8a3ae37, type: 2}
+    - target: {fileID: 1068078820752164408, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2017021802716620278, guid: 2efc0b8b22a958849a214935380ff61d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1012,12 +1027,17 @@ PrefabInstance:
     - target: {fileID: 7165243159174105780, guid: 2efc0b8b22a958849a214935380ff61d,
         type: 3}
       propertyPath: field of view
-      value: 40
+      value: 1.9096828
       objectReference: {fileID: 0}
     - target: {fileID: 7165243159174105780, guid: 2efc0b8b22a958849a214935380ff61d,
         type: 3}
       propertyPath: m_FocalLength
-      value: 1.3737388
+      value: 29.999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7165243159174105780, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
+      propertyPath: far clip plane
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 7165243159174105780, guid: 2efc0b8b22a958849a214935380ff61d,
         type: 3}
@@ -1042,7 +1062,22 @@ PrefabInstance:
     - target: {fileID: 7165243159174105780, guid: 2efc0b8b22a958849a214935380ff61d,
         type: 3}
       propertyPath: m_projectionMatrixMode
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235311706563053096, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 1.9096828
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235311706563053096, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
+      propertyPath: m_Lens.ModeOverride
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715861598218601868, guid: 2efc0b8b22a958849a214935380ff61d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1073,7 +1108,7 @@ Animator:
   m_GameObject: {fileID: 6310287688070926967}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e3edcf7ad7a3fb64e97374d85000e84e, type: 3}
-  m_Controller: {fileID: 9100000, guid: a558afd331d933740a517a89e28fd654, type: 2}
+  m_Controller: {fileID: 9100000, guid: 96fed9953fb86734897c7e98d8a3ae37, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1099,11 +1134,11 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6310287688070926969}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: e3edcf7ad7a3fb64e97374d85000e84e, type: 3}
   m_Controller: {fileID: 9100000, guid: 96fed9953fb86734897c7e98d8a3ae37, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
