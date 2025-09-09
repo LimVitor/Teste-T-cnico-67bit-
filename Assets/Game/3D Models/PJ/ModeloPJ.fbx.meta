@@ -24,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 1
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle (1)
+      name: Idle
       takeName: Idle
       internalID: 7257139999454155946
       firstFrame: 0
@@ -62,11 +62,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
-      takeName: Idle
+      name: Walking.001
+      takeName: Walking.001
       internalID: -3100369314251171874
       firstFrame: 0
-      lastFrame: 400
+      lastFrame: 63
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
