@@ -50,7 +50,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -222,8 +222,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.735849, g: 0.17007832, b: 0.42724684, a: 0.6509804}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      minColor: {r: 0.6132076, g: 0.12437701, b: 0.31896013, a: 0.6509804}
+      maxColor: {r: 0.7921569, g: 0.0627451, b: 0.4862745, a: 0.7058824}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
