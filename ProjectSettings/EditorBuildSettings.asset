@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/FaseNoite.unity
+    guid: 308057fa17771044b90e3d0ad5bb5b61
   m_configObjects: {}
