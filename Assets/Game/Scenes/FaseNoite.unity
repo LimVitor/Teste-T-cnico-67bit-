@@ -18957,16 +18957,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3918128447458426608, guid: 93e817ab7c9d5664d97345368b3943f4,
-        type: 3}
-      propertyPath: useRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4519505979098782458, guid: 93e817ab7c9d5664d97345368b3943f4,
-        type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5637333771075594682, guid: 93e817ab7c9d5664d97345368b3943f4,
         type: 3}
       propertyPath: m_AnchorMax.x
