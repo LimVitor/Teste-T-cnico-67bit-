@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useRootMotion: 0
-  speed: 800
+  speed: 400
   rotationSpeed: 4
   _lifeBar: {fileID: 1478423785247800599}
 --- !u!95 &4519505979098782458
