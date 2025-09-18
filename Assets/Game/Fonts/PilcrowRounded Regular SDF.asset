@@ -93,12 +93,12 @@ MonoBehaviour:
     m_ClassDefinitionType: 0
   m_CharacterTable:
   - m_ElementType: 1
-    m_Unicode: 95
-    m_GlyphIndex: 309
-    m_Scale: 1
-  - m_ElementType: 1
     m_Unicode: 8230
     m_GlyphIndex: 288
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 95
+    m_GlyphIndex: 309
     m_Scale: 1
   m_AtlasTextures:
   - {fileID: 5218017307191382986}
